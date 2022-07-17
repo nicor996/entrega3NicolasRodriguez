@@ -3,6 +3,7 @@
 @import "./layout/footer";
 @import "nosotros.scss";
 @import "./utilities/mixin";
+@import "./utilities/variables";
 
 
 
@@ -30,4 +31,8 @@ main {
 .fotoNos {
     max-height: 400px;
     min-height: 200px;
+}
+
+.btn {
+    color: $color3;
 }
