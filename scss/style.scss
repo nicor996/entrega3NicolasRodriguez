@@ -1,0 +1,33 @@
+@import "./layout/navBar.scss";
+@import "./elements/cards";
+@import "./layout/footer";
+@import "nosotros.scss";
+@import "./utilities/mixin";
+
+
+
+
+$mainStyle:(
+    clr: black,
+    paddingFontTop: 15px,
+    paddingFontBtm: 15px,
+);
+
+
+
+
+
+main {
+    @include SpacingMain(90px, 10px);
+
+    h2 {
+        color: map-get($mainStyle, clr);
+        padding-top: map-get($mainStyle, paddingFontBtm);;
+        padding-bottom: map-get($mainStyle, paddingFontTop);;
+    }
+}
+
+.fotoNos {
+    max-height: 400px;
+    min-height: 200px;
+}

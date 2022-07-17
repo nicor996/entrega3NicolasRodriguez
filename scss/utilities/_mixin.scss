@@ -1,0 +1,11 @@
+@mixin SpacingMain ($var1, $var2) {
+    padding-bottom: $var1;
+    padding-top: $var2;
+}
+
+@mixin Margin ($leftM, $rightM) {
+    margin-left: $leftM;
+    margin-right: $rightM;
+}
+
+

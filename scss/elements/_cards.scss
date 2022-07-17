@@ -1,0 +1,23 @@
+@import "../utilities/variables";
+
+$cardAnimation:(
+    shadow: 5px 5px 20px $color2,
+    moveUp: translateY(-3%),
+);
+
+.cardBod {
+    
+    &:hover {
+        box-shadow: map-get($cardAnimation, shadow);
+        transform: map-get($cardAnimation, moveUp);
+    }
+}
+
+.card-text{
+    font-style: oblique;
+}
+
+.card-title {
+    @extend .card-text;
+    color: rgba(135, 30, 13, 0.7);
+}

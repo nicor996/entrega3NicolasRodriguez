@@ -1,0 +1,26 @@
+@import "../utilities/variables";
+@import "../utilities/mixin";
+
+$navStyle:(
+    clr: $colorPrimario,
+    roundEdges: 5px,
+    animationColor: $colorSecundario,
+    animationTime: all 0.2s linear,
+);
+
+.navbar {
+    background-color: map-get($navStyle, clr);
+}
+
+.navAux{
+    @include Margin(25px, 25px);
+}
+
+.nav-item{
+    border-radius: map-get($navStyle, roundEdges);
+
+    &:hover {
+        background: map-get($navStyle, animationColor);
+        transition: map-get($navStyle, animationTime);
+    }
+}

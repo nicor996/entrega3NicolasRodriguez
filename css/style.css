@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #3f3434;
+}
+
+.navAux {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.nav-item {
+  border-radius: 5px;
+}
+.nav-item:hover {
+  background: #605d5d;
+  transition: all 0.2s linear;
+}
+
+.cardBod:hover {
+  box-shadow: 5px 5px 20px lightgray;
+  transform: translateY(-3%);
+}
+
+.card-text, .card-title {
+  font-style: oblique;
+}
+
+.card-title {
+  color: rgba(135, 30, 13, 0.7);
+}
+
+footer {
+  background-color: #3f3434;
+}
+footer p {
+  color: white;
+  padding-top: 10px;
+}
+
+.fotoNos {
+  width: 100%;
+}
+
+.qscont {
+  padding-bottom: 15px;
+}
+
+main {
+  padding-bottom: 90px;
+  padding-top: 10px;
+}
+main h2 {
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.fotoNos {
+  max-height: 400px;
+  min-height: 200px;
+}/*# sourceMappingURL=style.css.map */

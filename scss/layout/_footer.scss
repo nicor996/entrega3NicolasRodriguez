@@ -1,0 +1,15 @@
+@import "../utilities/variables";
+
+$coso:(
+    footerColor: $colorPrimario,
+    fontColor: $color3,
+    padding: 10px,
+);
+
+footer {
+    background-color: map-get($coso, footerColor);
+    p {
+        color: map-get($coso,fontColor);
+        padding-top: map-get($coso, padding);
+    }
+}
